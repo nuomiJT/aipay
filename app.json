@@ -1,12 +1,32 @@
 {
   "pages":[
+    "pages/main/main",
+    "pages/study/study",
+    "pages/user/user",
     "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "Ai口语学院",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/main/main",
+        "text": "选课"
+      },
+      {
+        "pagePath":"pages/study/study",
+        "text":"学习"
+      },
+      {
+        "pagePath":"pages/user/user",
+        "text":"我的"
+      }
+    ],
+    "backgroundColor":"#FFFFFF"
   }
 }

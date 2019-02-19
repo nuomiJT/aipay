@@ -1,0 +1,24 @@
+<!-- main.wxml -->
+<view class='container'>
+  <view class='logo'>
+    <image class='imgLogo' bindtap="bindViewTap" src='../../img/nia.jpg'></image>
+  </view>
+  <view class='camp'>
+    <view class='head'>
+      <text class='leftBorder'>|</text>
+      <text class='title'>Ai口语集训营</text>
+      <text class='subheading'>Ai口语预备营</text>
+      <text class='three'>(免费试听课)</text>
+    </view>
+    <view class='grade'>
+      <radio-group>
+        <radio></radio>
+        <radio></radio>
+        <radio></radio>
+        <radio></radio>
+        <radio></radio>
+        <radio></radio>
+      </radio-group>
+    </view>
+  </view>
+</view>

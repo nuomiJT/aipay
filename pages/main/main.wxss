@@ -1,0 +1,41 @@
+/* main.wxss */
+
+.container {
+  padding: 0;
+}
+
+.imgLogo {
+  width: 690rpx;
+  height: 250rpx;
+  padding: 30rpx 0 40rpx 0;
+  border-radius: 44rpx;
+}
+
+.head {
+  height: 31rpx;
+  width: 690rpx;
+  margin-bottom: 40rpx;
+}
+
+.leftBorder {
+  color: red;
+  font-weight: bold;
+  margin-right: 9rpx;
+}
+
+.title {
+  color: #333;
+  font-size: 32rpx;
+  font-weight: 500;
+  margin-right: 49rpx;
+}
+
+.subheading {
+  color: #999;
+  font-size: 32rpx;
+}
+
+.three {
+  color: #999;
+  font-size: 24rpx;
+}
