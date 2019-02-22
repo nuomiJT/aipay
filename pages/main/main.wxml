@@ -1,24 +1,120 @@
 <!-- main.wxml -->
 <view class='container'>
+
+  <!-- logo image -->
   <view class='logo'>
     <image class='imgLogo' bindtap="bindViewTap" src='../../img/nia.jpg'></image>
   </view>
+
+  <!-- camp -->
   <view class='camp'>
+
+    <!-- title -->
     <view class='head'>
       <text class='leftBorder'>|</text>
       <text class='title'>Ai口语集训营</text>
       <text class='subheading'>Ai口语预备营</text>
       <text class='three'>(免费试听课)</text>
     </view>
+
+    <!-- grade radio -->
     <view class='grade'>
-      <radio-group>
-        <radio></radio>
-        <radio></radio>
-        <radio></radio>
-        <radio></radio>
-        <radio></radio>
-        <radio></radio>
+      <radio-group bindchange='radioCheckedChange'>
+        <view class='flex radioBox'>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==1? 'active':''}}">1年级
+              <radio class='selectGrade' hidden='true' value='1'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==2? 'active':''}}">2年级
+              <radio class='selectGrade' hidden='true' value='2'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==3? 'active':''}}">3年级
+              <radio class='selectGrade' hidden='true' value='3'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==4? 'active':''}}">4年级
+              <radio class='selectGrade' hidden='true' value='4'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==5? 'active':''}}">5年级
+              <radio class='selectGrade' hidden='true' value='5'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioCheckVal==6? 'active':''}}">6年级
+              <radio class='selectGrade' hidden='true' value='6'></radio>
+            </label>
+          </view>
+        </view>
       </radio-group>
     </view>
+
+    <!-- class -->
+    <view class='class'>
+      <view class='detailClass'>
+        <view class='topClass'>
+          <text class='classTitle'>Ai口语集训营——春季班</text>
+        </view>
+        <view class='bottomClass'>
+          <text class='time'>时间:  2018年12月20日-2月12日</text>
+          <text class='teacher'>授课老师:  David</text>
+          <view class='price'>
+            <text class='priceLeft'>¥</text>
+            <text class='priceNumber'>188</text>
+            <text class='priceRight'>起</text>
+          </view>
+        </view>
+      </view>
+      <view class='detailClass'>
+        <view class='topClass'>
+          <text class='classTitle'>Ai口语集训营——春季班</text>
+        </view>
+        <view class='bottomClass'>
+          <text class='time'>时间:  2018年12月20日-2月12日</text>
+          <text class='teacher'>授课老师:  David</text>
+          <view class='price'>
+            <text class='priceLeft'>¥</text>
+            <text class='priceNumber'>188</text>
+            <text class='priceRight'>起</text>
+          </view>
+        </view>
+      </view>
+      <view class='detailClass'>
+        <view class='topClass'>
+          <text class='classTitle'>Ai口语集训营——春季班</text>
+        </view>
+        <view class='bottomClass'>
+          <text class='time'>时间:  2018年12月20日-2月12日</text>
+          <text class='teacher'>授课老师:  David</text>
+          <view class='price'>
+            <text class='priceLeft'>¥</text>
+            <text class='priceNumber'>188</text>
+            <text class='priceRight'>起</text>
+          </view>
+        </view>
+      </view>
+      <view class='detailClass'>
+        <view class='topClass'>
+          <text class='classTitle'>Ai口语集训营——春季班</text>
+        </view>
+        <view class='bottomClass'>
+          <text class='time'>时间:  2018年12月20日-2月12日</text>
+          <text class='teacher'>授课老师:  David</text>
+          <view class='price'>
+            <text class='priceLeft'>¥</text>
+            <text class='priceNumber'>188</text>
+            <text class='priceRight'>起</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
   </view>
+  
 </view>
