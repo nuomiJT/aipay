@@ -1,6 +1,33 @@
-<view class='head'>
-    <text class='leftBorder'>|</text>
-    <text> 
-        您今日有直播<text>3</text>场
-    </text>
+
+<view class='container'> 
+    <view class='head'>
+      <text class='leftBorder'>|</text>
+      <text class='title'>您今日有直播 <text class='color'>3</text>场</text>
+      <view class='classSchedule'>查看课程表
+        <image class='ScheduleImg' bindtap="" src='../../img/icon.png'></image>
+      </view>
+    </view>
+    <view class='live'>
+        <view class='liveDetail'>
+            <view class='liveTitle'>Merry Christmas 一起过圣诞节<text>拼团</text></view>
+            <view class='liveTime'>
+              <image class='timeImg' bindtap="" src='../../img/'></image>
+              <text class='time1'>2018年12月23日</text>
+              <text class='time2'>10：30-10：55</text>
+            </view>
+            <view class='liveTeacher'>
+                <view class='liveLeft'>
+                    <image class='liveTeacherImg' bindtap="" src='../../img/'></image>
+                    <view class='teacherName'>
+                        <view class='teacher'>授课老师</view>
+                        <view class='name'>王某某</view>
+                    </view>
+                </view>
+                <view class='liveRight'>
+                    直播进行中
+                </view>
+            </view>
+        </view>
+    </view>
+    
 </view>

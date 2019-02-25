@@ -15,7 +15,7 @@
 /* camp title */
 .head {
   height: 31rpx;
-  width: 690rpx;
+  /* width: 690rpx; */
   margin-bottom: 40rpx;
 }
 

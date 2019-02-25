@@ -16,15 +16,21 @@
     "list":[
       {
         "pagePath": "pages/main/main",
-        "text": "选课"
+        "text": "选课",
+        "iconPath": "img/home2.png",
+        "selectedIconPath": "img/home1.png"
       },
       {
         "pagePath":"pages/study/study",
-        "text":"学习"
+        "text":"学习",
+        "iconPath": "img/study2.png",
+        "selectedIconPath": "img/study1.png"
       },
       {
         "pagePath":"pages/user/user",
-        "text":"我的"
+        "text":"我的",
+        "iconPath": "img/my1.png",
+        "selectedIconPath": "img/my2.png"
       }
     ],
     "backgroundColor":"#FFFFFF"
