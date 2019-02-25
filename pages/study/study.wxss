@@ -1,0 +1,5 @@
+.left{
+    color: red;
+    font-weight: bold;
+    margin-right: 9rpx;
+}

@@ -1,1 +1,6 @@
-<view>学习</view>
+<view class='head'>
+    <text class='leftBorder'>|</text>
+    <text> 
+        您今日有直播<text>3</text>场
+    </text>
+</view>
