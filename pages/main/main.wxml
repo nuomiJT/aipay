@@ -3,7 +3,7 @@
 
   <!-- logo image -->
   <view class='logo'>
-    <image class='imgLogo' bindtap="bindViewTap" src='../../img/nia.jpg'></image>
+    <image class='imgLogo' bindtap="bindImageTo" src='../../images/nia.jpg'></image>
   </view>
 
   <!-- camp -->
@@ -57,7 +57,7 @@
 
     <!-- class -->
     <view class='class'>
-      <view class='detailClass'>
+      <view class='detailClass' bindtap='bindToClass'>
         <view class='topClass'>
           <text class='classTitle'>Ai口语集训营——春季班</text>
         </view>
@@ -114,7 +114,8 @@
         </view>
       </view>
     </view>
-
+    
+    <!-- camp -->
   </view>
-  
+
 </view>

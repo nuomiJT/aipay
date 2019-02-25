@@ -1,6 +1,8 @@
 {
   "pages":[
+    "pages/detailcalss/detailclass",
     "pages/main/main",
+    "pages/class/class",
     "pages/study/study",
     "pages/user/user",
     "pages/index/index",
@@ -10,7 +12,8 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Ai口语学院",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
   },
   "tabBar":{
     "list":[
