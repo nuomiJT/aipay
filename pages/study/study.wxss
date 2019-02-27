@@ -9,7 +9,7 @@
   display: flex;
 }
 .leftBorder {
-    color: red;
+    color: rgba(222,69,61,1);
     font-weight: bold;
     margin-right: 9rpx;
 }
@@ -35,38 +35,156 @@
 .ScheduleImg{
   width: 10rpx;
   height: 18rpx;
-  border: 1px solid red;
 }
-/* 直播 */
+
+
+/* live */
 .liveDetail{
-  width:690rpx;
-  height:254rpx;
+  /* width:690rpx; */
+  /* height:254rpx; */
   /* border: 1px solid blue; */
   background:rgba(255,255,255,1);
   box-shadow:0rpx 2rpx 4rpx 0rpx rgba(0, 0, 0, 0.08);
   border-radius:40rpx;
+  padding: 35rpx 21rpx 36rpx 25rpx;
+  margin-bottom: 21rpx;
+}
+.liveTitle{
+    /* width:423rpx; */
+    height:32rpx;
+    font-size:30rpx;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    margin-bottom: 19rpx;
+  }
+.liveClass{
+    width:24rpx;
+    height:34rpx;
+    border:2rpx solid rgba(222,69,61,1);
+    border-radius:4rpx;
+    /* padding: 3rpx; */
+    /* font-size:24px; */
+    /* font-family:PingFangSC-Regular; */
+    font-weight:400;
+    color:rgba(222,69,61,1);
+    margin-right:10rpx;
 }
 .timeImg{
     width: 24rpx;
     height: 24rpx;
     border: 1px solid red;
-
+    margin-right:10rpx;
+}
+.time{
+  width:325rpx;
+  height:23rpx;
+  font-size:24rpx;
+  font-family:PingFangSC-Regular;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  margin-bottom: 35px;
+}
+.liveTeacher{
+    display: flex;
+}
+.liveLeft{
+    display: flex;
 }
 .liveTeacherImg{
     width: 80rpx;
     height: 80rpx;
     border: 1px solid red;
+    border-radius: 50%;
+}
+.teacher, .name{
+    /* width:98rpx; */
+    height:23rpx;
+    font-size:24rpx;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(153,153,153,1);
+    margin-bottom: 20rpx;
+    margin-left: 15rpx;
+}
+.teacher{
+    width: 96rpx;
+}
+.name{
+    width: 72rpx;
+}
+
+.status{
+    width:200rpx;
+    height:54rpx;
+    background:rgba(222,69,61,0.8);
+    border-radius:27rpx;
+    margin-left: 250rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.liveCastImg{
+    width:41rpx;
+    height:41rpx;
+    border: 1px solid black;
+    margin-right: 13rpx;
+}
+.liveStatus{
+    /* border: 1px solid #333; */
+    font-size:24rpx;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
 
 }
-.liveTitle{
-  /* width:423px;
-  height:32px;
-  border: 1px solid red; */
-  font-size:30rpx;
-  font-family:PingFangSC-Medium;
-  font-weight:500;
-  color:rgba(51,51,51,1);
-  margin-top: 36rpx;
-  margin-left: 36rpx;
+.liveRightTime{
+    font-size:20rpx;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(222,69,61,1);
+    margin-left: 200rpx;
 }
 
+/* classes */
+.classes{
+    padding: 32rpx 27rpx 32rpx 31rpx;
+    background:rgba(255,255,255,1);
+    border-radius:10rpx;
+    display: flex;
+    flex-wrap:  wrap;
+}
+.classList{
+    width: 300rpx;
+    height: 120rpx;
+    border-radius:20rpx;
+}
+.classList:nth-of-type(odd){
+    background:linear-gradient(-74deg,#EBF7FF,rgba(255,255,255,0.42));
+    margin-right: 32rpx;
+
+}
+.classList:nth-of-type(even){
+    background:linear-gradient(-74deg,rgba(255,240,229,1),rgba(255,255,255,0.42));
+}
+.classTitle{
+    height: 19rpx;
+    font-size:20rpx;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-top: 31rpx;
+    margin-left: 91rpx;
+}
+.className:nth-of-type(odd){
+    height: 27rpx;
+    font-size:28rpx;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(67,126,170,1);
+    margin-top: 11rpx;
+    margin-left: 67rpx;
+}
+.className:nth-of-type(even){
+    margin-left: 109rpx;
+}

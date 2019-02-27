@@ -9,11 +9,10 @@
     </view>
     <view class='live'>
         <view class='liveDetail'>
-            <view class='liveTitle'>Merry Christmas 一起过圣诞节<text>拼团</text></view>
+            <view class='liveTitle'><text class='liveClass'>预</text>Merry Christmas  一起过圣诞节【提高班】</view>
             <view class='liveTime'>
-              <image class='timeImg' bindtap="" src='../../img/'></image>
-              <text class='time1'>2018年12月23日</text>
-              <text class='time2'>10：30-10：55</text>
+              <image class='timeImg'  src='../../img/'></image>
+              <text class='time'>2018年12月23日  10：30-10：55</text>
             </view>
             <view class='liveTeacher'>
                 <view class='liveLeft'>
@@ -24,10 +23,84 @@
                     </view>
                 </view>
                 <view class='liveRight'>
-                    直播进行中
+                    <view class='status'>
+                        <view class='liveCastImg'></view>
+                        <view class='liveStatus'> 直播进行中</view>
+                    </view>
+                    <view class='liveRightTime'>直播已开始：05:01:30</view>
+                </view>
+            </view>
+        </view>
+        <view class='liveDetail'>
+            <view class='liveTitle'><text class='liveClass'>预</text>Merry Christmas  一起过圣诞节【提高班】</view>
+            <view class='liveTime'>
+              <image class='timeImg'  src='../../img/'></image>
+              <text class='time'>2018年12月23日  10：30-10：55</text>
+            </view>
+            <view class='liveTeacher'>
+                <view class='liveLeft'>
+                    <image class='liveTeacherImg' bindtap="" src='../../img/'></image>
+                    <view class='teacherName'>
+                        <view class='teacher'>授课老师</view>
+                        <view class='name'>王某某</view>
+                    </view>
+                </view>
+                <view class='liveRight'>
+                    <view class='status'>
+                        <view class='liveCastImg'></view>
+                        <view class='liveStatus'> 直播进行中</view>
+                    </view>
+                    <view class='liveRightTime'>直播已开始：05:01:30</view>
+                </view>
+            </view>
+        </view>
+        <view class='liveDetail'>
+            <view class='liveTitle'><text class='liveClass'>预</text>Merry Christmas  一起过圣诞节【提高班】</view>
+            <view class='liveTime'>
+              <image class='timeImg'  src='../../img/'></image>
+              <text class='time'>2018年12月23日  10：30-10：55</text>
+            </view>
+            <view class='liveTeacher'>
+                <view class='liveLeft'>
+                    <image class='liveTeacherImg' bindtap="" src='../../img/'></image>
+                    <view class='teacherName'>
+                        <view class='teacher'>授课老师</view>
+                        <view class='name'>王某某</view>
+                    </view>
+                </view>
+                <view class='liveRight'>
+                    <view class='status'>
+                        <view class='liveCastImg'></view>
+                        <view class='liveStatus'> 直播进行中</view>
+                    </view>
+                    <view class='liveRightTime'>直播已开始：05:01:30</view>
                 </view>
             </view>
         </view>
     </view>
-    
+    <view class='head'>
+      <text class='leftBorder'>|</text>
+      <text class='title'>我的课程 <text class='color'>3</text>场</text>
+      <view class='classSchedule'>去选更多课
+        <image class='ScheduleImg' bindtap="" src='../../img/icon.png'></image>
+      </view>
+    </view>
+    <view class='classes'>
+        <view class='classList'>
+            <view class='classTitle'>Ai口语集训营</view>
+            <view class='className'>一年级寒假班</view>
+        </view>
+        <view class='classList'>
+            <view class='classTitle'>Ai口语集训营</view>
+            <view class='className'>基础班</view>
+        </view>
+        <view class='classList'>
+            <view class='classTitle'>Ai口语集训营</view>
+            <view class='className'>一年级寒假班</view>
+        </view>
+        <view class='classList'>
+            <view class='classTitle'>Ai口语集训营</view>
+            <view class='className'>基础班</view>
+        </view>
+    </view>
 </view>
