@@ -11,14 +11,29 @@
 
     <!-- title -->
     <view class='head'>
-      <text class='leftBorder'>|</text>
-      <text class='title'>Ai口语集训营</text>
-      <text class='subheading'>Ai口语预备营</text>
-      <text class='three'>(免费试听课)</text>
+      <radio-group bindchange='radioCheckedTitleChange'>
+        <view class='flex radioBox'>
+          <view class='flex item'>
+            <label class="{{radioChecktTit==1? 'active':''}}">
+              <text class="leftBorder {{radioChecktTit==1? 'titleShow':''}}">|</text>
+              <text class='title'>Ai口语集训营</text>
+              <radio class='selectGrade' hidden='true' value='1'></radio>
+            </label>
+          </view>
+          <view class='flex item'>
+            <label class="{{radioChecktTit==2? 'active':''}}">
+              <text class="leftBorder {{radioChecktTit==2? 'titleShow':''}}">|</text>
+              <text class='subheading'>Ai口语预备营</text>
+              <text class='three'>(免费试听课)</text>
+              <radio class='selectGrade' hidden='true' value='2'></radio>
+            </label>
+          </view>
+        </view>
+      </radio-group>
     </view>
 
     <!-- grade radio -->
-    <view class='grade'>
+    <view class="grade {{radioChecktTit==2? 'gradeShow':''}}">
       <radio-group bindchange='radioCheckedChange'>
         <view class='flex radioBox'>
           <view class='flex item'>
@@ -56,66 +71,27 @@
     </view>
 
     <!-- class -->
-    <view class='class'>
+    <view class='class' wx:for="{{classList}}" classList-item="{{item}}" wx:for-index="{{index}}">
       <view class='detailClass' bindtap='bindToClass'>
         <view class='topClass'>
-          <text class='classTitle'>Ai口语集训营——春季班</text>
+          <text class='classLogo'>Ai口语</text>
+          <text class='classTitle'>{{item.sort === "1" ? "Ai口语集训营" : "Ai口语预备营"}}【{{
+          item.type === "1" ? "基础班" : (item.type === "2" ? "提高班" : (item.type === "3" ? "春季班" : (item.type === "4" ? "夏季班" : (item.type === "5" ? "秋季班" : (item.type === "6" ? "冬季班" : "寒假班")))))}}】</text>
         </view>
         <view class='bottomClass'>
-          <text class='time'>时间:  2018年12月20日-2月12日</text>
-          <text class='teacher'>授课老师:  David</text>
+          <text class='time'>共{{item.countCourse}}期课程可购买</text>
+          <text class='teacher'>{{item.boughtNum}}人 已购买</text>
           <view class='price'>
+            <text class='groupPrice'>拼团价</text>
             <text class='priceLeft'>¥</text>
-            <text class='priceNumber'>188</text>
-            <text class='priceRight'>起</text>
-          </view>
-        </view>
-      </view>
-      <view class='detailClass'>
-        <view class='topClass'>
-          <text class='classTitle'>Ai口语集训营——春季班</text>
-        </view>
-        <view class='bottomClass'>
-          <text class='time'>时间:  2018年12月20日-2月12日</text>
-          <text class='teacher'>授课老师:  David</text>
-          <view class='price'>
-            <text class='priceLeft'>¥</text>
-            <text class='priceNumber'>188</text>
-            <text class='priceRight'>起</text>
-          </view>
-        </view>
-      </view>
-      <view class='detailClass'>
-        <view class='topClass'>
-          <text class='classTitle'>Ai口语集训营——春季班</text>
-        </view>
-        <view class='bottomClass'>
-          <text class='time'>时间:  2018年12月20日-2月12日</text>
-          <text class='teacher'>授课老师:  David</text>
-          <view class='price'>
-            <text class='priceLeft'>¥</text>
-            <text class='priceNumber'>188</text>
-            <text class='priceRight'>起</text>
-          </view>
-        </view>
-      </view>
-      <view class='detailClass'>
-        <view class='topClass'>
-          <text class='classTitle'>Ai口语集训营——春季班</text>
-        </view>
-        <view class='bottomClass'>
-          <text class='time'>时间:  2018年12月20日-2月12日</text>
-          <text class='teacher'>授课老师:  David</text>
-          <view class='price'>
-            <text class='priceLeft'>¥</text>
-            <text class='priceNumber'>188</text>
-            <text class='priceRight'>起</text>
+            <text class='priceNumber'>{{item.minPrice/100}}</text>
+            <text class='priceRight'>元起</text>
           </view>
         </view>
       </view>
     </view>
-    
-    <!-- camp -->
+
+    <!-- camp end -->
   </view>
 
 </view>

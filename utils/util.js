@@ -14,6 +14,9 @@ const formatNumber = n => {
   return n[1] ? n : '0' + n
 }
 
+const url = "http://aistudy-test.pingan.com.cn/"
+
 module.exports = {
+  url,
   formatTime: formatTime
 }

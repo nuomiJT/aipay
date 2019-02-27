@@ -1,0 +1,54 @@
+<!-- detailclass.wxml -->
+<view class='wrapper'>
+
+  <!-- bsee info -->
+  <view class='baseInfo'>
+    <view class='baseInfoTop'>
+      <text>集训营二年级纯春季班【A班】</text>
+      <text>2月10日-2月16日 每天9:00-9:25</text>
+    </view>
+    <view class='baseInfoBottom'>
+      <image></image>
+      <text class='teacher'>授课教师 Culture</text>
+      <text class='priceLeft'>¥</text>
+      <text class='price'>288</text>
+      <text class='priceRight'>原价388</text>
+    </view>
+  </view>
+
+  <!-- group buying -->
+  <!-- countdown -->
+  <view class='countDown'></view>
+  <!-- group user -->
+  <view class='groupUser'>
+    <view class='groupUserTitle'>
+      <text class='groupUserTitle-left'>小伙伴们正在拼团，可直接参与</text>
+      <text class='groupUserTitle-right'>查看更多></text>
+    </view>
+    <view class='groupUserInfo'></view>
+  </view>
+  <!-- group rule -->
+  <view class='groupRule'></view>
+
+  <!-- course info -->
+  <!-- course characteristic -->
+  <view class='characteristic'>
+    <text class='characteristicTitle'>课程特点</text>
+    <view class='flex characteristicContent'>
+      <text>口语互动直播</text>
+      <text>随时看作业</text>
+      <text>全面素质教育</text>
+      <text>无课后作业</text>
+    </view>
+  </view>
+
+  <!-- course introduction -->
+  <view class='introduction'></view>
+
+  <!-- course live -->
+  <view class='live'></view>
+
+</view>
+
+<!-- footer -->
+<view class='footer'></view>

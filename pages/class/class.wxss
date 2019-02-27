@@ -91,8 +91,8 @@ button {
   background: rgba(255, 255, 255, 1);
   border: 1rpx solid rgba(222, 69, 61, 1);
   border-radius: 25rpx;
-  padding-left: 20rpx;
-  padding-right: 20rpx;
+  padding-left: 0rpx;
+  padding-right: 0rpx;
   position: absolute;
   right: 23rpx;
 }

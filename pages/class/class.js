@@ -9,7 +9,7 @@ Page({
   toDetailClass:function(e){
     console.log('toDetailClass', e)
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../detailclass/detailclass'
     })
   }
 })
