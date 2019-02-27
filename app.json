@@ -1,38 +1,47 @@
 {
-  "pages":[
+  "pages": [
     "pages/main/main",
+    "pages/class/class",
+    "pages/detailclass/detailclass",
     "pages/study/study",
     "pages/user/user",
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Ai口语学院",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   },
-  "tabBar":{
-    "list":[
+  "tabBar": {
+    "list": [
       {
         "pagePath": "pages/main/main",
         "text": "选课",
-        "iconPath": "img/home2.png",
-        "selectedIconPath": "img/home1.png"
+        "iconPath": "images/home2.png",
+        "selectedIconPath": "images/home1.png",
+        "selectedColor":"#DE453D",
+        "color": "#DE453D"
       },
       {
-        "pagePath":"pages/study/study",
-        "text":"学习",
-        "iconPath": "img/study2.png",
-        "selectedIconPath": "img/study1.png"
+        "pagePath": "pages/study/study",
+        "text": "学习",
+        "iconPath": "images/study2.png",
+        "selectedIconPath": "images/study1.png",
+        "selectedColor": "#DE453D",
+        "color": "#DE453D"
       },
       {
-        "pagePath":"pages/user/user",
-        "text":"我的",
-        "iconPath": "img/my1.png",
-        "selectedIconPath": "img/my2.png"
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png",
+        "selectedColor": "#DE453D",
+        "color":"#DE453D"
       }
     ],
-    "backgroundColor":"#FFFFFF"
+    "backgroundColor": "#FFFFFF"
   }
 }

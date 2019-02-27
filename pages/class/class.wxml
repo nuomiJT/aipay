@@ -1,0 +1,33 @@
+<!-- class.wxml -->
+<view class='wrapper'>
+  <!-- class list -->
+
+  <!-- group buying -->
+  <view class='classList'>
+    <view class='topClassList'>
+      <text class='classTitle'>AI口语集训营二年级寒假班（A班）</text>
+      <!-- <image class='groupTab'></image> -->
+      <text class='time'>时间:  2018年12月20日-2月12日</text>
+    </view>
+    <view class='bottomClassList'>
+      <text class='priceLeft'>¥</text>
+      <text class='priceNumber'>188</text>
+      <text class='priceRight'>原价¥388</text>
+      <text class='groupBuying'>2人团</text>
+      <button class='start' bindtap="toDetailClass">发起拼团</button>
+    </view>
+  </view>
+  <!-- person buying -->
+  <view class='classList'>
+    <view class='topClassList'>
+      <text class='classTitle'>AI口语集训营二年级寒假班（B班）</text>
+      <text class='time'>时间:  2018年12月20日-2月12日</text>
+    </view>
+    <view class='bottomClassList'>
+      <text class='priceLeft'>¥</text>
+      <text class='priceNumber'>288</text>
+      <button class='start' bindtap="toDetailClass">立即报名</button>
+    </view>
+  </view>
+
+</view>
